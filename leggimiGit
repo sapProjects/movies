@@ -1,0 +1,12 @@
+Per funzionare con WebIde bisogna:
+creare un repositori su GitHub VUOTO
+
+su WebIde da Cartella Workspace-->Git-->Clone Repository
+	inserire la url copiata da GitHub, ad es. https://github.com/sapProjects/movies.git
+	
+si fa import nella cartella vuota creata es movies-->Import->File or Project e si seleziona lo zip
+di un progetto esportato su file zip
+
+da toolbar dx si selziona il Git Pane e si da il comando stage all 
+	commit message "first commit"
+	si pigia "commit and push" remote branch e si seleziona origin/master OK
