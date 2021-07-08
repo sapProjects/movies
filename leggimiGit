@@ -10,3 +10,9 @@ di un progetto esportato su file zip
 da toolbar dx si selziona il Git Pane e si da il comando stage all 
 	commit message "first commit"
 	si pigia "commit and push" remote branch e si seleziona origin/master OK
+
+Per far funzionare le cose, ho anche dovuto aggiungere a mano
+su movies-->Projects Settings-->Git Repository
+due parametri mancanti, altimenti non funzionavano le pull/fetch e le push di modifiche...
+   branch.master.remote origin
+   branch.master.merge  refs/heads/master
