@@ -16,3 +16,5 @@ su movies-->Projects Settings-->Git Repository
 due parametri mancanti, altimenti non funzionavano le pull/fetch e le push di modifiche...
    branch.master.remote origin
    branch.master.merge  refs/heads/master
+   
+modifica da altro utente git
